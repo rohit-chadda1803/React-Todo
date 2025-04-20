@@ -31,3 +31,16 @@ export default defineConfig({
 @import "tailwindcss";
 
 ```
+
+
+
+# uuid - 
+- helps to create random ids  , search on web for its npm to install & copy -paste 
+
+```
+npm install uuid
+
+in app.jsx
+import { v4 as uuidv4 } from 'uuid';
+uuidv4();
+```
