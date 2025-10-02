@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navba = () => {
+const Navbar = () => {
   return (
     <nav className="flex justify-between bg-indigo-950  text-white py-4 rounded-sm">
       <div className="logo ">
@@ -15,4 +15,4 @@ const Navba = () => {
   )
 }
 
-export default Navba
+export default Navbar
